@@ -1,0 +1,21 @@
+{
+  "name": "courdevelopsportfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/server.js",
+    "sass-watch": "sass --watch styles/main.scss public/main.css",
+    "dev": "npm-run-all --parallel sass-watch start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemailer": "^6.9.1",
+    "nodemon": "^2.0.22",
+    "npm-run-all": "^4.1.5",
+    "sass": "^1.60.0"
+  }
+}
