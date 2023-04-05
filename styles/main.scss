@@ -1831,6 +1831,7 @@ $thirdblue: rgb(85, 85, 255);
                 flex-direction: column;
                 .section {
                     #homeselect {
+                        height: 75vh;
                         .home {
                             // background-color: rgb(109, 8, 8);
                             display: grid;
@@ -1873,7 +1874,14 @@ $thirdblue: rgb(85, 85, 255);
                                     .socials {
                                         grid-row: 3;
                                         grid-column: 1;
-                                        margin: 20vh 0 0 0;
+                                        margin: 10vh 0 0 10vw;
+                                        display: inline;
+                                        a {
+                                            img {
+                                                width: 25vw;
+                                                height: 25vw;
+                                            }
+                                        }
                                     }
                                     .photo {
                                         grid-column: 1;
@@ -1887,6 +1895,17 @@ $thirdblue: rgb(85, 85, 255);
                                         }
                                     }
 
+                                }
+                            }
+                        }
+                    }
+                    #skillsselect {
+                        .skills {
+                            .topskills {
+                                display: flex;
+                                // background-color: yellow;
+                                .navbar {
+                                    display: none;
                                 }
                             }
                         }
