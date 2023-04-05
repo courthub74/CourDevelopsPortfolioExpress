@@ -1759,34 +1759,42 @@ $thirdblue: rgb(85, 85, 255);
                     }
                     footer {
                         // background-color: yellowgreen;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
                         text-align: center;
-                        margin: 22vh 0 0 0;
+                        margin: 18vh 7vw 0 0;
                         small {
                             display: flex;
                             justify-content: center;
                             gap: .7vw;
                             // background-color: yellowgreen;
-                        }
-                        span {
-                            opacity: .5;
-                            margin-top: 1.3vh;
-                        }
-                        p {
-                            opacity: .5;
-                        }
-                        img {
-                            opacity: .5;
-                            width: 1.8vw;
-                            height: 1.8vw;
-                            // background-color: yellowgreen;
-                            // padding: 1vh 0 0 0;
-                            // margin: 1vh 0 0 0;
-                        }
-                        a {
-                            margin-top: 1.3vh;
-                            color: #58a6ff;
-                            // color: rgb(85, 85, 255);
-                            color: #6287cf;
+                            img {
+                                opacity: .5;
+                                width: 1.8vw;
+                                height: 1.8vw;
+                                // background-color: yellowgreen;
+                                // padding: 1vh 0 0 0;
+                                // margin: 1vh 0 0 0;
+                            }
+                            .smallprint {
+                                display: flex;
+                                align-items: center;
+                                gap: 8px;
+                                p {
+                                    opacity: .5;
+                                }
+                                a {
+                                    // color: #58a6ff;
+                                    color: #6287cf;
+                                }
+                                span {
+                                    #phone {
+                                        // margin: 0 0 10vh 0;
+                                        // background-color: green;
+                                    }
+                                }
+                            }
                         }
                     }
                 }
