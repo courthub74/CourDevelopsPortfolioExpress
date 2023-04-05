@@ -1537,6 +1537,17 @@
     scroll-behavior: smooth;
     scroll-snap-type: y mandatory;
   }
+  * body {
+    margin: 0;
+    font-family: "Inter", sans-serif;
+  }
+  * body .house {
+    display: flex;
+    flex-direction: column;
+  }
+  * body .house .section #homeselect .home {
+    background-color: red;
+  }
 }
 .center {
   animation-name: moveInCenter;
