@@ -1832,7 +1832,63 @@ $thirdblue: rgb(85, 85, 255);
                 .section {
                     #homeselect {
                         .home {
-                            background-color: red;
+                            // background-color: rgb(109, 8, 8);
+                            display: grid;
+                            .tophome {
+                                grid-row: 1;
+                                .logo {
+                                    grid-row: 1;
+                                    grid-column: 1;
+                                    a {
+                                        img {
+                                            width: 20vw;
+                                            height: 20vw;
+                                        }
+                                    }
+                                }
+                                .navbar {
+                                    display: none;
+                                }
+                            }
+                            .bothome {
+                                grid-row: 1;
+                                .grid-container {
+                                    margin: 0 0 0 0;
+                                    .header {
+                                        grid-column: 1;
+                                        grid-row: 1;
+                                        width: 30vw;
+                                        background-color: green;
+                                        margin: -.5vh 0 0 2vw;
+                                        #header {
+                                            font-size: 5vw;
+                                            width: 50vw;
+                                        }
+                                        #para {
+                                            font-size: 3vw;
+                                            width: 60vw;
+                                            margin: -1.8vh 0 0 0;
+                                        }
+                                    }
+                                    .socials {
+                                        grid-row: 3;
+                                        grid-column: 1;
+                                        margin: 20vh 0 0 0;
+                                    }
+                                    .photo {
+                                        grid-column: 1;
+                                        grid-row: 2;
+                                        margin: 15vh 0 0 0;
+                                        background-color: green;
+                                        img {
+                                            width: 70vw;
+                                            height: 70vw;
+                                            margin: 0 20vw 0 0;
+                                        }
+                                    }
+
+                                }
+                            }
                         }
                     }
                 }

@@ -1546,7 +1546,59 @@
     flex-direction: column;
   }
   * body .house .section #homeselect .home {
-    background-color: red;
+    display: grid;
+  }
+  * body .house .section #homeselect .home .tophome {
+    grid-row: 1;
+  }
+  * body .house .section #homeselect .home .tophome .logo {
+    grid-row: 1;
+    grid-column: 1;
+  }
+  * body .house .section #homeselect .home .tophome .logo a img {
+    width: 20vw;
+    height: 20vw;
+  }
+  * body .house .section #homeselect .home .tophome .navbar {
+    display: none;
+  }
+  * body .house .section #homeselect .home .bothome {
+    grid-row: 1;
+  }
+  * body .house .section #homeselect .home .bothome .grid-container {
+    margin: 0 0 0 0;
+  }
+  * body .house .section #homeselect .home .bothome .grid-container .header {
+    grid-column: 1;
+    grid-row: 1;
+    width: 30vw;
+    background-color: green;
+    margin: -0.5vh 0 0 2vw;
+  }
+  * body .house .section #homeselect .home .bothome .grid-container .header #header {
+    font-size: 5vw;
+    width: 50vw;
+  }
+  * body .house .section #homeselect .home .bothome .grid-container .header #para {
+    font-size: 3vw;
+    width: 60vw;
+    margin: -1.8vh 0 0 0;
+  }
+  * body .house .section #homeselect .home .bothome .grid-container .socials {
+    grid-row: 3;
+    grid-column: 1;
+    margin: 20vh 0 0 0;
+  }
+  * body .house .section #homeselect .home .bothome .grid-container .photo {
+    grid-column: 1;
+    grid-row: 2;
+    margin: 15vh 0 0 0;
+    background-color: green;
+  }
+  * body .house .section #homeselect .home .bothome .grid-container .photo img {
+    width: 70vw;
+    height: 70vw;
+    margin: 0 20vw 0 0;
   }
 }
 .center {
