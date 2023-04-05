@@ -17,10 +17,13 @@ $techcirclegreen: #05607D;
 
 $hoverfonts: #B7BCD6;
 
-// FOOTER
+// FOOTER COLORS
 $firstblue: #58a6ff;
 $secondblue: #6287cf;
 $thirdblue: rgb(85, 85, 255);
+
+
+// DESKTOP VERSION
 
 * {
     // font-family: 'Inter', sans-serif;
@@ -87,6 +90,13 @@ $thirdblue: rgb(85, 85, 255);
                                         color: $mainblue;
                                         border-radius: 5px;
                                         padding: .4vw;
+                                    }
+                                    #login {
+                                        color: $firstblue;
+                                        font-weight: bold;
+                                        border: 1px $firstblue solid;
+                                        padding: .4vw;
+                                        border-radius: 5px;
                                     }
                                 }
                             }
@@ -1804,6 +1814,18 @@ $thirdblue: rgb(85, 85, 255);
     }
 }
 
+// MEDIA QUERIES
+
+
+// MOBILE VERSION
+    // media screen for 500px and below
+@media screen and (max-width: 500px) {
+    * {
+        scroll-behavior: smooth;
+        scroll-snap-type: y mandatory;
+    }
+}
+
 
 // These are the classes to be toggled through 'scroll.js'
 .center {
@@ -2008,4 +2030,4 @@ $thirdblue: rgb(85, 85, 255);
 }
 
 
-// MEDIA QUERIES
+
