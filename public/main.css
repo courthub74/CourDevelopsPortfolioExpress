@@ -1508,6 +1508,7 @@
   opacity: 0.5;
   width: 1.8vw;
   height: 1.8vw;
+  margin: 0.5vh 0 0 0;
 }
 * body .house .contact .contactcontainer footer small .smallprint {
   display: flex;
@@ -1520,6 +1521,10 @@
 * body .house .contact .contactcontainer footer small .smallprint a {
   color: #6287cf;
 }
+* body .house .contact .contactcontainer footer small .smallprint span #phone {
+  margin: 1vh 0 0 0;
+}
+
 .center {
   animation-name: moveInCenter;
   animation-duration: 2s;
