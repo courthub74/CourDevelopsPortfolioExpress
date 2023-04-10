@@ -6,6 +6,12 @@ const express = require('express');
 // instantiate express inside a variable called app
 const app = express();
 
+// import nodemailer
+const nodemailer = require("nodemailer");
+
+// import mailgun (just in case)
+// const mailGun = require('nodemailer-mailgun-transport');
+
 // set up the port
 const port = 5000;
 
