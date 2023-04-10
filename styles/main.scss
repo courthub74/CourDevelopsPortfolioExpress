@@ -62,7 +62,7 @@ $thirdblue: rgb(85, 85, 255);
                                 // animation-duration: 1s;
                                 ul {    
                                     text-align: center;
-                                    margin: 8vh 6vw 0 0;
+                                    margin: 8vh 0 0 30vw;
                                     // background-color: green;
                                     a {
                                         cursor: pointer;
@@ -174,7 +174,7 @@ $thirdblue: rgb(85, 85, 255);
                                     }
                                     .photo {
                                         grid-column: 2;
-                                        grid-row: 1 / span 3;
+                                        grid-row: 1 / span 2;
                                         // animation-name: moveInCenter;
                                         // animation-duration: 1s;
                                         img {
@@ -182,7 +182,7 @@ $thirdblue: rgb(85, 85, 255);
                                             width: 30vw;
                                             height: 30vw;
                                             margin-top: -5vh;
-                                            margin-left: 21.6vw;
+                                            margin-left: 20vw;
                                         }
                                     }
                                 

@@ -12,6 +12,8 @@ const port = 5000;
 // MIDDLEWARE
 app.use(express.static('public'));
 
+// Keep up the images
+
 // ROUTES
 app.get('/', (req, res) => {
     res.sendFile(__dirname + '/public/index.html');

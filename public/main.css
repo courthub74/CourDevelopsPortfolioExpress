@@ -28,7 +28,7 @@
 }
 * body .house .section #homeselect .home .tophome .navbar ul {
   text-align: center;
-  margin: 8vh 6vw 0 0;
+  margin: 8vh 0 0 30vw;
 }
 * body .house .section #homeselect .home .tophome .navbar ul a {
   cursor: pointer;
@@ -113,14 +113,14 @@
 }
 * body .house .section #homeselect .home .bothome .grid-container .photo {
   grid-column: 2;
-  grid-row: 1/span 3;
+  grid-row: 1/span 2;
 }
 * body .house .section #homeselect .home .bothome .grid-container .photo img {
   border-radius: 50%;
   width: 30vw;
   height: 30vw;
   margin-top: -5vh;
-  margin-left: 21.6vw;
+  margin-left: 20vw;
 }
 * body .house .skills {
   background-color: #146166;
