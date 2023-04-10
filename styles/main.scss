@@ -21,6 +21,7 @@ $hoverfonts: #B7BCD6;
 $firstblue: #58a6ff;
 $secondblue: #6287cf;
 $thirdblue: rgb(85, 85, 255);
+$footerblue: #3b66bb;
 
 
 // DESKTOP VERSION
@@ -1477,7 +1478,8 @@ $thirdblue: rgb(85, 85, 255);
                                 // background-color: yellow;
                             }
                             h3 {
-                                font-size: 2.5vh; 
+                                font-size: 2.5vh;
+                                margin-top: -.005vh;  
                               }
                               p {
                                   margin-top: -.8vw;
@@ -1489,14 +1491,14 @@ $thirdblue: rgb(85, 85, 255);
                             display: flex;
                             flex-direction: column;
                             align-items: center;
-                            // margin: 0 0 0 0;
+                            margin: 2.5vh 0 0 0;
                             img {
                                 width: 5vw;
                                 height: 4vw;
                             }
                             h3 {
                                 font-size: 2.5vh; 
-
+                                margin-top: 1.5vh;
                             }
                             p {
                                 margin-top: -.9vw;
@@ -1508,13 +1510,14 @@ $thirdblue: rgb(85, 85, 255);
                             display: flex;
                             flex-direction: column;
                             align-items: center;
-                            margin: 4vh 0 0 0;
+                            margin: 7vh 0 0 0;
                             img {
                                 width: 5vw;
                                 height: 5vw;
                             }
                             h3 {
-                                font-size: 2.5vh; 
+                                font-size: 2.5vh;
+                                margin-top: 1vh; 
                             }
                             p {
                                 margin-top: -.9vw;
@@ -1551,7 +1554,7 @@ $thirdblue: rgb(85, 85, 255);
                             }
                         }
                         .r1description {
-                            margin: 7vh 0 0 0;
+                            margin: 8.5vh 0 0 0;
                             h3 {
                                 margin-left: 2.2vw;
                                 margin-bottom: -.9vh;
@@ -1571,7 +1574,7 @@ $thirdblue: rgb(85, 85, 255);
                         }
                         .sleadescription {
                             // background-color: yellowgreen;
-                            margin-top: 8vh;
+                            margin-top: 11vh;
                             h3 {
                                 margin-left: 2.35vw;
                                 margin-bottom: -.9vh;
@@ -1797,7 +1800,9 @@ $thirdblue: rgb(85, 85, 255);
                                 }
                                 a {
                                     // color: #58a6ff;
-                                    color: #6287cf;
+                                    // color: #6287cf;
+                                    // color: $footerblue;
+                                    color: $firstblue;
                                 }
                                 span {
                                     #phone {

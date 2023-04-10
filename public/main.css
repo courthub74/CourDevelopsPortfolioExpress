@@ -1252,6 +1252,7 @@
 }
 * body .house .experience .experiencecontainer .places .courdevs h3 {
   font-size: 2.5vh;
+  margin-top: -0.005vh;
 }
 * body .house .experience .experiencecontainer .places .courdevs p {
   margin-top: -0.8vw;
@@ -1262,6 +1263,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 2.5vh 0 0 0;
 }
 * body .house .experience .experiencecontainer .places .r1rcm img {
   width: 5vw;
@@ -1269,6 +1271,7 @@
 }
 * body .house .experience .experiencecontainer .places .r1rcm h3 {
   font-size: 2.5vh;
+  margin-top: 1.5vh;
 }
 * body .house .experience .experiencecontainer .places .r1rcm p {
   margin-top: -0.9vw;
@@ -1279,7 +1282,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 4vh 0 0 0;
+  margin: 7vh 0 0 0;
 }
 * body .house .experience .experiencecontainer .places .slea img {
   width: 5vw;
@@ -1287,6 +1290,7 @@
 }
 * body .house .experience .experiencecontainer .places .slea h3 {
   font-size: 2.5vh;
+  margin-top: 1vh;
 }
 * body .house .experience .experiencecontainer .places .slea p {
   margin-top: -0.9vw;
@@ -1311,7 +1315,7 @@
   padding: 0.5vh;
 }
 * body .house .experience .experiencecontainer .descriptions .r1description {
-  margin: 7vh 0 0 0;
+  margin: 8.5vh 0 0 0;
 }
 * body .house .experience .experiencecontainer .descriptions .r1description h3 {
   margin-left: 2.2vw;
@@ -1327,7 +1331,7 @@
   padding: 0.5vh;
 }
 * body .house .experience .experiencecontainer .descriptions .sleadescription {
-  margin-top: 8vh;
+  margin-top: 11vh;
 }
 * body .house .experience .experiencecontainer .descriptions .sleadescription h3 {
   margin-left: 2.35vw;
@@ -1526,7 +1530,7 @@
   opacity: 0.5;
 }
 * body .house .contact .contactcontainer footer small .smallprint a {
-  color: #6287cf;
+  color: #58a6ff;
 }
 * body .house .contact .contactcontainer footer small .smallprint span #phone {
   margin: 1vh 0 0 0;
